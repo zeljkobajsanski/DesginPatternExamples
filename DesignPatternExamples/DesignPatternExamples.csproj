@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Strategy\DuckExample\Behaviors.cs" />
+    <Compile Include="Behavioral\Strategy\DuckExample\Ducks.cs" />
     <Compile Include="Creational\FactoryMethod\LogisticsDemo\Client.cs" />
     <Compile Include="Creational\FactoryMethod\LogisticsDemo\Factories.cs" />
     <Compile Include="Creational\FactoryMethod\LogisticsDemo\Products.cs" />
