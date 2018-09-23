@@ -1,5 +1,6 @@
 ﻿using System;
 using DesignPatternExamples.Structural.Bridge;
+using DesignPatternExamples.Structural.Decorator;
 using Client = DesignPatternExamples.Creational.FactoryMethod.LogisticsDemo.Client;
 
 namespace DesignPatternExamples
@@ -8,7 +9,8 @@ namespace DesignPatternExamples
     {
         public static void Main()
         {
-            new Client().RunDemo();
+            new DecoratorDemo().Run();
+            Console.WriteLine("Press any key...");
             Console.ReadKey();
         }
     }

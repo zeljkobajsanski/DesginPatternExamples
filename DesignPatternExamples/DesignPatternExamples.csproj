@@ -33,7 +33,14 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,6 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Observer\Observable.cs" />
+    <Compile Include="Behavioral\Observer\Observer.cs" />
     <Compile Include="Behavioral\Strategy\DuckExample\Behaviors.cs" />
     <Compile Include="Behavioral\Strategy\DuckExample\Ducks.cs" />
     <Compile Include="Creational\FactoryMethod\LogisticsDemo\Client.cs" />
@@ -59,7 +68,16 @@
     <Compile Include="Structural\Bridge\ShapesDemo\Client.cs" />
     <Compile Include="Structural\Bridge\ShapesDemo\Abstractions.cs" />
     <Compile Include="Structural\Bridge\ShapesDemo\Implementations.cs" />
+    <Compile Include="Structural\Decorator\BeverageDecorator.cs" />
+    <Compile Include="Structural\Decorator\Coffee.cs" />
+    <Compile Include="Structural\Decorator\DecoratorDemo.cs" />
+    <Compile Include="Structural\Decorator\IBeverage.cs" />
+    <Compile Include="Structural\Decorator\MilkDecorator.cs" />
+    <Compile Include="Structural\Decorator\DiscountedBeverageDecorator.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
