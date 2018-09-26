@@ -1,4 +1,4 @@
-﻿namespace DesignPatternExamples.Structural.Bridge
+﻿namespace DesignPatternExamples.Structural.Bridge.ShapesDemo
 {
     public interface IColor
     {

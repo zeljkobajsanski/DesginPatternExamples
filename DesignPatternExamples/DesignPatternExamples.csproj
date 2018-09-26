@@ -54,6 +54,10 @@
     <Compile Include="Behavioral\Observer\Observer.cs" />
     <Compile Include="Behavioral\Strategy\DuckExample\Behaviors.cs" />
     <Compile Include="Behavioral\Strategy\DuckExample\Ducks.cs" />
+    <Compile Include="Creational\Builder\BuilderDemo.cs" />
+    <Compile Include="Creational\Builder\CoffeeBuilder.cs" />
+    <Compile Include="Creational\Builder\IBuilder.cs" />
+    <Compile Include="Creational\Builder\Waiter.cs" />
     <Compile Include="Creational\FactoryMethod\LogisticsDemo\Client.cs" />
     <Compile Include="Creational\FactoryMethod\LogisticsDemo\Factories.cs" />
     <Compile Include="Creational\FactoryMethod\LogisticsDemo\Products.cs" />

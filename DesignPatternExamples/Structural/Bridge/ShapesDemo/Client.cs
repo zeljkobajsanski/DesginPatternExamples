@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices;
-
-namespace DesignPatternExamples.Structural.Bridge
+﻿namespace DesignPatternExamples.Structural.Bridge.ShapesDemo
 {
     public class Client
     {

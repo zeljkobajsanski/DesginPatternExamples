@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatternExamples.Structural.Bridge
+namespace DesignPatternExamples.Structural.Bridge.ShapesDemo
 {
     public abstract class Shape
     {
