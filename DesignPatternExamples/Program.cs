@@ -11,7 +11,8 @@ namespace DesignPatternExamples
         public static void Main()
         {
             //new DecoratorDemo().Run();
-            new BuilderDemo().Run();
+            //new BuilderDemo().Run();
+            new Behavioral.Command.RemoteControl.Client().Run();
             Console.WriteLine("Press any key...");
             Console.ReadKey();
         }

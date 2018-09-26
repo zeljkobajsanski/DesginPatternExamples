@@ -50,10 +50,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Command\RemoteControl\Client.cs" />
+    <Compile Include="Behavioral\Command\RemoteControl\Commands.cs" />
+    <Compile Include="Behavioral\Command\RemoteControl\Invoker.cs" />
+    <Compile Include="Behavioral\Command\RemoteControl\Receivers.cs" />
     <Compile Include="Behavioral\Observer\Observable.cs" />
     <Compile Include="Behavioral\Observer\Observer.cs" />
     <Compile Include="Behavioral\Strategy\DuckExample\Behaviors.cs" />
     <Compile Include="Behavioral\Strategy\DuckExample\Ducks.cs" />
+    <Compile Include="Creational\AbstractFactory\RepositoryFactoryExample\AbstractFactoryClient.cs" />
+    <Compile Include="Creational\AbstractFactory\RepositoryFactoryExample\ConcreteFactories.cs" />
+    <Compile Include="Creational\AbstractFactory\RepositoryFactoryExample\Repositories.cs" />
+    <Compile Include="Creational\AbstractFactory\RepositoryFactoryExample\RepositoryAbstractFactory.cs" />
     <Compile Include="Creational\Builder\BuilderDemo.cs" />
     <Compile Include="Creational\Builder\CoffeeBuilder.cs" />
     <Compile Include="Creational\Builder\IBuilder.cs" />

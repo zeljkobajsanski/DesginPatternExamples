@@ -2,7 +2,7 @@
 {
     public abstract class RepositoryAbstractFactory
     {
-        IBooksRepository CreateBooksRepository();
-        IProductsRepository CreateProductsRepository();
+        public abstract IBooksRepository CreateBooksRepository();
+        public abstract IProductsRepository CreateProductsRepository();
     }
 }
