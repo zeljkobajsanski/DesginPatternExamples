@@ -86,6 +86,9 @@
     <Compile Include="Structural\Decorator\IBeverage.cs" />
     <Compile Include="Structural\Decorator\MilkDecorator.cs" />
     <Compile Include="Structural\Decorator\DiscountedBeverageDecorator.cs" />
+    <Compile Include="Structural\Proxy\Implementations.cs" />
+    <Compile Include="Structural\Proxy\IRemoteService.cs" />
+    <Compile Include="Structural\Proxy\ProxyDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
